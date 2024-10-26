@@ -1,0 +1,27 @@
+{
+  "tasks": [
+    {
+      "_id": "0",
+      "title": "Sample Task",
+      "description": "This is a sample task description.",
+      "dueDate": "2023-12-31T23:59:59.999Z",
+      "completed": true
+    },
+    {
+      "_id": "71ef72a3-a694-45ed-a3dc-52ca10a90b05",
+      "title": "This is a test.",
+      "description": "Fucking fuck me.",
+      "dueDate": null,
+      "priority": "",
+      "completed": false
+    },
+    {
+      "_id": "a9dbe7e7-4e55-43f1-84bd-e4843d762bbe",
+      "title": "k",
+      "description": "",
+      "dueDate": "2024-10-09T04:00:00.000Z",
+      "priority": "",
+      "completed": false
+    }
+  ]
+}

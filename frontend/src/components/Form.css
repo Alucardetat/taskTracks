@@ -1,0 +1,58 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+input,
+textarea,
+select,
+button,
+.custom-date-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 18px;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid #071115;
+  background-color: #071115;
+  color: #aa00a4;
+  box-sizing: border-box;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aa00a4;
+}
+
+.date-input-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.date-input-container::after {
+  content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="%23aa00a4" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm-7-6h5v2h-5v5h-2v-5H7v-2h5V9h2v5z"></path></svg>');
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  width: 18px;
+  height: 18px;
+}
+
+button {
+  cursor: pointer;
+  transition: all 200ms ease;
+  background-color: #071115;
+  color: #aa00a4;
+}
+
+button:hover {
+  background-color: #1b2f38;
+  transform: scale(1.1);
+}
